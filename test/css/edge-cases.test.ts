@@ -1,5 +1,5 @@
 
-import {html} from 'lit-element';
+import {html} from 'lit';
 import {render} from 'lit-html';
 import {transition, mark} from 'lit-transition'
 import {assert} from 'chai';

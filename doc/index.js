@@ -3,7 +3,7 @@ import 'highlight.js/styles/atelier-savanna-dark.css';
 import './demo';
 import './landing';
 
-import { html } from 'lit-element';
+import { html } from 'lit';
 import {cache} from 'lit-html/directives/cache';
 import {index} from './loaders/md-loader?folder=./guide!';
 import router from './router';

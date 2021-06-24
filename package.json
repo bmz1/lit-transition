@@ -40,7 +40,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "0.0.32",
     "karma-webpack": "^4.0.2",
-    "lit-element": "^2.3.0",
+    "lit": "*",
     "lit-element-router": "^2.0.1",
     "loader-utils": "^2.0.0",
     "markdown-it": "^10.0.0",
@@ -56,8 +56,5 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-merge": "^4.2.2"
-  },
-  "peerDependencies": {
-    "lit-html": "^1.2.1"
   }
 }

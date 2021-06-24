@@ -1,7 +1,7 @@
 import {
-  NodePart,
   html
-} from 'lit-html';
+} from 'lit';
+import { Part } from 'lit';
 import classList from '../core/class-list';
 import {
   partDomSingle,
@@ -21,7 +21,7 @@ import {
  * @param global global params to be merged with flow-specific params
  */
 export const flow = {
-  async transition(part:NodePart, classes:any, global: any) {
+  async transition(part:Part, classes:any, global: any) {
     // destructure params
     const {
       duration = global.duration,

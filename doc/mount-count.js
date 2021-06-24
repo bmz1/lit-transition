@@ -1,5 +1,5 @@
 // Import the LitElement base class and html tag function
-import { LitElement, html, css } from 'lit-element';
+import { LitElement, html, css } from 'lit';
 import {transition, swipe as move} from 'transition';
 import {guard} from 'lit-html/directives/guard';
 

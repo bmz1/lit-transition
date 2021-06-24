@@ -1,4 +1,4 @@
-import { directive } from 'lit-html';
+import { directive } from 'lit/directive.js';
 import { transitionBase } from '../core/transition-base';
 import { fade as defaultTransition } from './transitions/fade';
 import { normalizeCSSTransitionOptions } from './utils';

@@ -1,7 +1,7 @@
+import { TemplateResult } from 'lit';
 import {
-  NodePart,
-  TemplateResult
-} from 'lit-html';
+  Part,
+} from 'lit/directive.js';
 import classList from './class-list';
 
 export function nextFrame(n = 1):Promise<void> {
@@ -55,7 +55,7 @@ function ignoredDom(dom:HTMLElement) {
   return dom.nodeName === '#text' && !(dom.nodeValue?.trim());
 }
 
-function partNodes(part:NodePart) {
+function partNodes(part:Part) {
   const collected = [];
   let node:any = part.startNode.nextSibling;
   while(node !== part.endNode) {
@@ -65,7 +65,7 @@ function partNodes(part:NodePart) {
   return collected;
 } 
 
-export function partDomSingle(part:NodePart):any {
+export function partDomSingle(part:Part):any {
   let nodes:Array<any> = partNodes(part);
   let active = nodes.filter(d => !ignoredDom(d));
   // check part has a shape we accept

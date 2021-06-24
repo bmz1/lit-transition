@@ -1,4 +1,4 @@
-import { LitElement, html} from 'lit-element';
+import { LitElement, html} from 'lit';
 import {asyncReplace} from 'lit-html/directives/async-replace.js';
 import {transition} from 'lit-transition';
 import {transTeaser as trans, transWaitBar} from './transitions';

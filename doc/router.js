@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit-element';
+import { LitElement, html } from 'lit';
 import { navigator, router } from 'lit-element-router';
 import {index} from './loaders/md-loader?folder=./guide!';
 import {unsafeHTML} from 'lit-html/directives/unsafe-html';

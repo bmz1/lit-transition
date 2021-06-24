@@ -1,6 +1,6 @@
 import {
   TemplateResult
-} from 'lit-html';
+} from 'lit';
 
 /**
  * in-out: enter transition starts playing right away

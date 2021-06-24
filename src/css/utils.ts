@@ -1,6 +1,6 @@
 import {
   html
-} from 'lit-html';
+} from 'lit';
 
 import {
   CSSTransitionOptions,
